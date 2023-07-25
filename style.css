@@ -203,6 +203,10 @@ nav ul {
     list-style: none;
 }
 
+.rodape {
+    display: none;
+}
+
 
 
 @media(max-width:500px) {
@@ -284,7 +288,7 @@ nav ul {
     .contato {
         background-image: url("imagem2/Grupo\ 496.png");
         width: 100vw;
-        height: 100vh;
+        height: 90vh;
         display: flex;
         flex-direction: column;
         justify-content: left;
@@ -319,14 +323,89 @@ nav ul {
         margin-right: 130px;
     }
 
-    footer {}
 
-    nav {
-
-        display: flex;
-        flex-direction: column;
+    .apoio {
+        height: 60px;
     }
 
+    footer {
+        width: 100%;
+        height: 100px;
+        border: solid blue;
+    }
 
+    nav {
+        display: flex;
+        flex-direction: column;
+        border: solid blue;
+    }
+
+    .rodape {
+        width: 100%;
+        height: 90%;
+        display: block;
+        border: solid red;
+        ng-bottom: 5px;
+    }
+
+    .peso1 {
+        border: solid black;
+        display: flex;
+        justify-content:center;
+       
+        
+    }
+
+    .peso1 img {
+        display: flex;
+        justify-content: center;
+        align-items:flex-start;
+        width: 40px;
+        height: 40px;
+        
+    }
+
+    .peso1 h1 {
+        display: flex;
+        justify-content: center;
+        width: 30vw;
+    }
+
+    .peso2 {
+        width: 60vw;
+        border: solid black;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .atende ul {
+        padding-top: 5px;
+        border: solid blue;
+    }
+
+    .sobre ul {
+        padding-top: 5px;
+        border: solid blue;
+    }
+
+    .unidade ul {
+        padding-top: 5px;
+        border: solid blue;
+    }
+
+    .atende h2 {
+        font-size: 15px;
+    }
+
+    .sobre h2 {
+        font-size: 15px;
+    }
+
+    .unidade h2 {
+        padding-top: 2px;
+        font-size: 15px;
+    }
 
 }
